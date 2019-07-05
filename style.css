@@ -73,10 +73,10 @@ body {
 }
 .caption h3 {
 	color: white!important;
-	font-size: 2.2rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 	padding-bottom: 2rem;
-	letter-spacing: .2rem;
+	letter-spacing: .1rem;
 	word-spacing: .7rem;
 }
 .btn {
@@ -125,7 +125,7 @@ h3.heading {
 	font-size: 1.1rem;
 }
 
-/*============= PORTFOLIO SECTION =============*/
+/*============= PUBLICATIONS SECTION =============*/
 
 .padding {
 	padding: 2rem 0;
@@ -147,7 +147,11 @@ img.example-image {
 	overflow: hidden;
 }
 
-/*============= TESTIMONIALS SECTION =============*/
+.mw-headline {
+	padding: 0rem 2rem;
+}
+
+/*============= RESOURCES SECTION =============*/
 
 .card {
 	margin: 0 1rem;
