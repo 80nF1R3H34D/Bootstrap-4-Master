@@ -61,7 +61,7 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-	background-image: url('img/leeeman4.jpg');
+	background-image: url('img/leeeman_landing_pageimg2.jpg');
 	img
 }
 .caption {
@@ -72,6 +72,7 @@ body {
 	z-index: 1;
 }
 .caption h3 {
+	text-shadow: 3px 3px black;  
 	color: white!important;
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -89,8 +90,11 @@ body {
 
 /*============= ABOUT SECTION =============*/
 
+.about text-center {
+	text-align: center;
+}
 .jumbotron {
-	margin-bottom: 0;
+	margin-bottom: 1rem;
 	border-radius: 0;
 	padding: 3rem 0 3rem;
 }
@@ -123,6 +127,13 @@ h3.heading {
 }
 .about p {
 	font-size: 1.1rem;
+	text-align: left;
+	padding-left: 3rem;
+}
+
+.card-body {
+	background-color: #e9ecef;
+	line-height: 2rem;
 }
 
 /*============= PUBLICATIONS SECTION =============*/
