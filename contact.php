@@ -17,8 +17,8 @@ $fromEmail = 'noreply@email.com';
 $fromName = 'No Reply Email';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'name@mydomain.com';
-$sendToName = 'New Website Email Message';
+$sendToEmail = 'contact@leeeman.com';
+$sendToName = 'L.E. Eeman Website Email Message';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -44,7 +44,7 @@ try
 {
     
     if(count($_POST) == 0) throw new \Exception('Form is empty');
-    $emailTextHtml .= "<h3>New message from the Nest Theme:</h3><hr>";
+    $emailTextHtml .= "<h3>New message from the L.E. Eeman Website</h3><hr>";
     $emailTextHtml .= "<table>";
 
     foreach ($_POST as $key => $value) {
@@ -54,7 +54,7 @@ try
         }
     }
     $emailTextHtml .= "</table><hr>";
-    $emailTextHtml .= "<p>Have a great day!<br><br>Sincerely,<br><br>Nest Theme</p>";
+    $emailTextHtml .= "<p>Have a great day!<br><br>Sincerely,<br><br>Maxwell E. Harman</p>";
     
     $mail = new PHPMailer;
 
